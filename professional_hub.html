@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sara Gaire - Computer Science Portfolio | Transforming Ideas into Solutions</title>
+    <meta name="description" content="Sara Gaire's professional portfolio showcasing machine learning expertise, full-stack development, and academic research from Constructor University." />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fsaragaire4259back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+</head>
+<body class="bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md border-b border-secondary-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="homepage_professional_portfolio_hub.html" class="text-2xl font-bold text-gradient">
+                        Sara Gaire
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="homepage_professional_portfolio_hub.html" class="text-primary font-semibold px-3 py-2 rounded-md text-sm">Home</a>
+                        <a href="about_personal_professional_journey.html" class="text-secondary-600 hover:text-primary transition-smooth px-3 py-2 rounded-md text-sm">About</a>
+                        <a href="projects_technical_portfolio_showcase.html" class="text-secondary-600 hover:text-primary transition-smooth px-3 py-2 rounded-md text-sm">Projects</a>
+                        <a href="skills_experience_technical_competency_map.html" class="text-secondary-600 hover:text-primary transition-smooth px-3 py-2 rounded-md text-sm">Skills & Experience</a>
+                        <a href="research_academic_work.html" class="text-secondary-600 hover:text-primary transition-smooth px-3 py-2 rounded-md text-sm">Research</a>
+                        <a href="blog_insights_technical_thought_leadership.html" class="text-secondary-600 hover:text-primary transition-smooth px-3 py-2 rounded-md text-sm">Blog</a>
+                    </div>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="hidden md:block">
+                    <a href="javascript:void(0)" class="btn-primary">
+                        Download Resume
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="text-secondary-600 hover:text-primary focus:outline-none focus:text-primary transition-smooth" onclick="toggleMobileMenu()">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-surface border-t border-secondary-200">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="homepage_professional_portfolio_hub.html" class="text-primary font-semibold block px-3 py-2 rounded-md text-base">Home</a>
+                <a href="about_personal_professional_journey.html" class="text-secondary-600 hover:text-primary block px-3 py-2 rounded-md text-base transition-smooth">About</a>
+                <a href="projects_technical_portfolio_showcase.html" class="text-secondary-600 hover:text-primary block px-3 py-2 rounded-md text-base transition-smooth">Projects</a>
+                <a href="skills_experience_technical_competency_map.html" class="text-secondary-600 hover:text-primary block px-3 py-2 rounded-md text-base transition-smooth">Skills & Experience</a>
+                <a href="research_academic_work.html" class="text-secondary-600 hover:text-primary block px-3 py-2 rounded-md text-base transition-smooth">Research</a>
+                <a href="blog_insights_technical_thought_leadership.html" class="text-secondary-600 hover:text-primary block px-3 py-2 rounded-md text-base transition-smooth">Blog</a>
+                <a href="javascript:void(0)" class="btn-primary block text-center mt-4">Download Resume</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-20 pb-16 bg-gradient-to-br from-primary-50 to-accent-50 relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <svg class="w-full h-full" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                        <path d="M 10 0 L 0 0 0 10" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="100" height="100" fill="url(#grid)"/>
+            </svg>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Hero Content -->
+                <div class="space-y-8 animate-fade-in">
+                    <div class="space-y-4">
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight">
+                            Hi, I'm <span class="text-gradient">Sara Gaire</span>
+                        </h1>
+                        <div class="text-xl md:text-2xl text-secondary-600 font-medium">
+                            <span id="typing-text">Computer Science Student</span>
+                            <span class="animate-pulse">|</span>
+                        </div>
+                    </div>
+
+                    <!-- Value Proposition -->
+                    <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-subtle border border-secondary-200">
+                        <p class="text-lg text-secondary-700 leading-relaxed">
+                            <span class="font-semibold text-primary">Transforming Complex Ideas into Elegant Solutions</span> 
+                            through machine learning, full-stack development, and numerical modeling. 
+                            Bridging academic research with practical applications.
+                        </p>
+                    </div>
+
+                    <!-- Quick Stats -->
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-accent">3.8</div>
+                            <div class="text-sm text-secondary-600">GPA</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-accent">5+</div>
+                            <div class="text-sm text-secondary-600">Years Coding</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-accent">3</div>
+                            <div class="text-sm text-secondary-600">Languages</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-accent">100+</div>
+                            <div class="text-sm text-secondary-600">Teaching Hours</div>
+                        </div>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="projects_technical_portfolio_showcase.html" class="btn-primary text-center">
+                            View My Work
+                        </a>
+                        <a href="about_personal_professional_journey.html" class="btn-secondary text-center">
+                            Learn About Me
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Image & Code Animation -->
+                <div class="relative animate-slide-up">
+                    <!-- Professional Photo -->
+                    <div class="relative z-10 mx-auto w-80 h-80 lg:w-96 lg:h-96">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sara Gaire - Professional Portrait" class="w-full h-full object-cover rounded-2xl shadow-strong" onerror="this.src='https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" loading="lazy" />
+                        <!-- Floating Code Snippet -->
+                        <div class="absolute -top-4 -right-4 bg-primary text-white p-4 rounded-lg shadow-strong font-mono text-sm animate-scale-in">
+                            <div class="text-accent-400">def</div>
+                            <div class="text-white">solve_complex_problems():</div>
+                            <div class="ml-4 text-accent-200">return elegant_solutions</div>
+                        </div>
+                    </div>
+
+                    <!-- Background Decorations -->
+                    <div class="absolute top-10 -left-10 w-20 h-20 bg-accent/20 rounded-full blur-xl"></div>
+                    <div class="absolute bottom-10 -right-10 w-32 h-32 bg-primary/20 rounded-full blur-xl"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Constellation -->
+    <section class="py-16 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Technical Expertise</h2>
+                <p class="text-lg text-secondary-600 max-w-2xl mx-auto">
+                    Interactive skills constellation - hover to explore proficiency levels and experience
+                </p>
+            </div>
+
+            <!-- Skills Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Python -->
+                <div class="skill-card group cursor-pointer" data-skill="python">
+                    <div class="card text-center hover:scale-105 transition-all duration-300">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-accent/10 rounded-full flex items-center justify-center group-hover:bg-accent/20 transition-smooth">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="w-8 h-8" />
+                        </div>
+                        <h3 class="font-semibold text-primary mb-2">Python</h3>
+                        <div class="w-full bg-secondary-200 rounded-full h-2 mb-2">
+                            <div class="bg-accent h-2 rounded-full" style="width: 90%"></div>
+                        </div>
+                        <p class="text-sm text-secondary-600">Advanced</p>
+                    </div>
+                </div>
+
+                <!-- JavaScript -->
+                <div class="skill-card group cursor-pointer" data-skill="javascript">
+                    <div class="card text-center hover:scale-105 transition-all duration-300">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-warning/10 rounded-full flex items-center justify-center group-hover:bg-warning/20 transition-smooth">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-8 h-8" />
+                        </div>
+                        <h3 class="font-semibold text-primary mb-2">JavaScript</h3>
+                        <div class="w-full bg-secondary-200 rounded-full h-2 mb-2">
+                            <div class="bg-warning h-2 rounded-full" style="width: 85%"></div>
+                        </div>
+                        <p class="text-sm text-secondary-600">Advanced</p>
+                    </div>
+                </div>
+
+                <!-- Machine Learning -->
+                <div class="skill-card group cursor-pointer" data-skill="ml">
+                    <div class="card text-center hover:scale-105 transition-all duration-300">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-success/10 rounded-full flex items-center justify-center group-hover:bg-success/20 transition-smooth">
+                            <svg class="w-8 h-8 text-success" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3 class="font-semibold text-primary mb-2">Machine Learning</h3>
+                        <div class="w-full bg-secondary-200 rounded-full h-2 mb-2">
+                            <div class="bg-success h-2 rounded-full" style="width: 80%"></div>
+                        </div>
+                        <p class="text-sm text-secondary-600">Proficient</p>
+                    </div>
+                </div>
+
+                <!-- React -->
+                <div class="skill-card group cursor-pointer" data-skill="react">
+                    <div class="card text-center hover:scale-105 transition-all duration-300">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-accent/10 rounded-full flex items-center justify-center group-hover:bg-accent/20 transition-smooth">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="w-8 h-8" />
+                        </div>
+                        <h3 class="font-semibold text-primary mb-2">React</h3>
+                        <div class="w-full bg-secondary-200 rounded-full h-2 mb-2">
+                            <div class="bg-accent h-2 rounded-full" style="width: 75%"></div>
+                        </div>
+                        <p class="text-sm text-secondary-600">Proficient</p>
+                    </div>
+                </div>
+
+                <!-- Node.js -->
+                <div class="skill-card group cursor-pointer" data-skill="nodejs">
+                    <div class="card text-center hover:scale-105 transition-all duration-300">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-success/10 rounded-full flex items-center justify-center group-hover:bg-success/20 transition-smooth">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="w-8 h-8" />
+                        </div>
+                        <h3 class="font-semibold text-primary mb-2">Node.js</h3>
+                        <div class="w-full bg-secondary-200 rounded-full h-2 mb-2">
+                            <div class="bg-success h-2 rounded-full" style="width: 70%"></div>
+                        </div>
+                        <p class="text-sm text-secondary-600">Intermediate</p>
+                    </div>
+                </div>
+
+                <!-- TensorFlow -->
+                <div class="skill-card group cursor-pointer" data-skill="tensorflow">
+                    <div class="card text-center hover:scale-105 transition-all duration-300">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-warning/10 rounded-full flex items-center justify-center group-hover:bg-warning/20 transition-smooth">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" class="w-8 h-8" />
+                        </div>
+                        <h3 class="font-semibold text-primary mb-2">TensorFlow</h3>
+                        <div class="w-full bg-secondary-200 rounded-full h-2 mb-2">
+                            <div class="bg-warning h-2 rounded-full" style="width: 75%"></div>
+                        </div>
+                        <p class="text-sm text-secondary-600">Proficient</p>
+                    </div>
+                </div>
+
+                <!-- Git -->
+                <div class="skill-card group cursor-pointer" data-skill="git">
+                    <div class="card text-center hover:scale-105 transition-all duration-300">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-error/10 rounded-full flex items-center justify-center group-hover:bg-error/20 transition-smooth">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="w-8 h-8" />
+                        </div>
+                        <h3 class="font-semibold text-primary mb-2">Git</h3>
+                        <div class="w-full bg-secondary-200 rounded-full h-2 mb-2">
+                            <div class="bg-error h-2 rounded-full" style="width: 85%"></div>
+                        </div>
+                        <p class="text-sm text-secondary-600">Advanced</p>
+                    </div>
+                </div>
+
+                <!-- Docker -->
+                <div class="skill-card group cursor-pointer" data-skill="docker">
+                    <div class="card text-center hover:scale-105 transition-all duration-300">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-accent/10 rounded-full flex items-center justify-center group-hover:bg-accent/20 transition-smooth">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" class="w-8 h-8" />
+                        </div>
+                        <h3 class="font-semibold text-primary mb-2">Docker</h3>
+                        <div class="w-full bg-secondary-200 rounded-full h-2 mb-2">
+                            <div class="bg-accent h-2 rounded-full" style="width: 65%"></div>
+                        </div>
+                        <p class="text-sm text-secondary-600">Intermediate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="py-16 bg-background">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Featured Projects</h2>
+                <p class="text-lg text-secondary-600 max-w-2xl mx-auto">
+                    Showcasing the intersection of academic research and practical application
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Chaplygin Ball Research -->
+                <div class="card group hover:scale-105 transition-all duration-300">
+                    <div class="relative overflow-hidden rounded-lg mb-6">
+                        <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Chaplygin Ball 3D Visualization" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" onerror="this.src='https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" loading="lazy" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                            <span class="text-white font-semibold">Interactive 3D Model</span>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <h3 class="text-xl font-semibold text-primary">Chaplygin Ball Theory</h3>
+                            <span class="px-3 py-1 bg-accent/10 text-accent text-sm rounded-full">Research</span>
+                        </div>
+                        <p class="text-secondary-600">
+                            Advanced numerical modeling of Chaplygin ball dynamics with interactive 3D visualization and theoretical analysis.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2 py-1 bg-primary/10 text-primary text-xs rounded">Python</span>
+                            <span class="px-2 py-1 bg-primary/10 text-primary text-xs rounded">NumPy</span>
+                            <span class="px-2 py-1 bg-primary/10 text-primary text-xs rounded">Matplotlib</span>
+                        </div>
+                        <div class="flex gap-3 pt-2">
+                            <a href="research_academic_work.html" class="text-accent hover:text-accent-600 font-medium text-sm transition-smooth">
+                                View Research →
+                            </a>
+                            <a href="javascript:void(0)" class="text-secondary-600 hover:text-primary font-medium text-sm transition-smooth">
+                                Live Demo →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Full-Stack Web Application -->
+                <div class="card group hover:scale-105 transition-all duration-300">
+                    <div class="relative overflow-hidden rounded-lg mb-6">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2815&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Full-Stack Web Application Dashboard" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" onerror="this.src='https://images.pixabay.com/photo/2016/11/30/20/58/programming-1873854_1280.png'; this.onerror=null;" loading="lazy" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                            <span class="text-white font-semibold">Live Application</span>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <h3 class="text-xl font-semibold text-primary">Task Management Platform</h3>
+                            <span class="px-3 py-1 bg-success/10 text-success text-sm rounded-full">Full-Stack</span>
+                        </div>
+                        <p class="text-secondary-600">
+                            Modern web application with React frontend, Node.js backend, and real-time collaboration features.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2 py-1 bg-primary/10 text-primary text-xs rounded">React</span>
+                            <span class="px-2 py-1 bg-primary/10 text-primary text-xs rounded">Node.js</span>
+                            <span class="px-2 py-1 bg-primary/10 text-primary text-xs rounded">MongoDB</span>
+                        </div>
+                        <div class="flex gap-3 pt-2">
+                            <a href="projects_technical_portfolio_showcase.html" class="text-accent hover:text-accent-600 font-medium text-sm transition-smooth">
+                                View Project →
+                            </a>
+                            <a href="javascript:void(0)" class="text-secondary-600 hover:text-primary font-medium text-sm transition-smooth">
+                                GitHub →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Machine Learning Project -->
+                <div class="card group hover:scale-105 transition-all duration-300">
+                    <div class="relative overflow-hidden rounded-lg mb-6">
+                        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Machine Learning Data Visualization" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" onerror="this.src='https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" loading="lazy" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                            <span class="text-white font-semibold">ML Model</span>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <h3 class="text-xl font-semibold text-primary">Predictive Analytics Model</h3>
+                            <span class="px-3 py-1 bg-warning/10 text-warning text-sm rounded-full">ML</span>
+                        </div>
+                        <p class="text-secondary-600">
+                            Deep learning model for predictive analytics with TensorFlow, achieving 94% accuracy on test data.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2 py-1 bg-primary/10 text-primary text-xs rounded">TensorFlow</span>
+                            <span class="px-2 py-1 bg-primary/10 text-primary text-xs rounded">Python</span>
+                            <span class="px-2 py-1 bg-primary/10 text-primary text-xs rounded">Jupyter</span>
+                        </div>
+                        <div class="flex gap-3 pt-2">
+                            <a href="projects_technical_portfolio_showcase.html" class="text-accent hover:text-accent-600 font-medium text-sm transition-smooth">
+                                View Project →
+                            </a>
+                            <a href="javascript:void(0)" class="text-secondary-600 hover:text-primary font-medium text-sm transition-smooth">
+                                GitHub →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="projects_technical_portfolio_showcase.html" class="btn-primary">
+                    View All Projects
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Metrics Dashboard -->
+    <section class="py-16 bg-gradient-to-r from-primary to-primary-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Professional Achievements</h2>
+                <p class="text-xl text-primary-100 max-w-2xl mx-auto">
+                    Quantified excellence across academic, technical, and cultural dimensions
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-bold text-accent mb-2">3.8</div>
+                    <div class="text-primary-200 mb-1">Constructor University</div>
+                    <div class="text-sm text-primary-300">Cumulative GPA</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-bold text-accent mb-2">5+</div>
+                    <div class="text-primary-200 mb-1">Years of</div>
+                    <div class="text-sm text-primary-300">Coding Experience</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-bold text-accent mb-2">3</div>
+                    <div class="text-primary-200 mb-1">Languages Spoken</div>
+                    <div class="text-sm text-primary-300">English, German, Nepali</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl md:text-5xl font-bold text-accent mb-2">100+</div>
+                    <div class="text-primary-200 mb-1">Teaching Hours</div>
+                    <div class="text-sm text-primary-300">Completed</div>
+                </div>
+            </div>
+
+            <!-- Cultural Bridge Element -->
+            <div class="mt-16 text-center">
+                <div class="inline-flex items-center space-x-4 bg-white/10 backdrop-blur-sm rounded-2xl px-8 py-4">
+                    <div class="flex items-center space-x-2">
+                        <img src="https://flagcdn.com/w40/np.png" alt="Nepal Flag" class="w-6 h-4 rounded" />
+                        <span class="text-primary-200">Nepal</span>
+                    </div>
+                    <div class="text-accent">→</div>
+                    <div class="flex items-center space-x-2">
+                        <img src="https://flagcdn.com/w40/de.png" alt="Germany Flag" class="w-6 h-4 rounded" />
+                        <span class="text-primary-200">Germany</span>
+                    </div>
+                    <div class="text-accent">→</div>
+                    <div class="flex items-center space-x-2">
+                        <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                        <span class="text-primary-200">Global Tech</span>
+                    </div>
+                </div>
+                <p class="text-primary-200 mt-4 max-w-2xl mx-auto">
+                    Bringing international perspective and cultural adaptability to technical challenges
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="py-16 bg-surface">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">
+                Ready to Collaborate?
+            </h2>
+            <p class="text-xl text-secondary-600 mb-8 max-w-2xl mx-auto">
+                I'm actively seeking opportunities in machine learning, full-stack development, 
+                and research collaboration. Let's build something amazing together.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="javascript:void(0)" class="btn-primary">
+                    Get In Touch
+                </a>
+                <a href="javascript:void(0)" class="btn-secondary">
+                    Schedule a Call
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Brand -->
+                <div class="md:col-span-2">
+                    <div class="text-2xl font-bold text-accent mb-4">Sara Gaire</div>
+                    <p class="text-primary-200 mb-6 max-w-md">
+                        Computer Science student passionate about transforming complex ideas into elegant solutions 
+                        through machine learning and full-stack development.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-accent transition-smooth">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-accent transition-smooth">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-accent transition-smooth">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-semibold text-accent mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="about_personal_professional_journey.html" class="text-primary-200 hover:text-accent transition-smooth">About</a></li>
+                        <li><a href="projects_technical_portfolio_showcase.html" class="text-primary-200 hover:text-accent transition-smooth">Projects</a></li>
+                        <li><a href="skills_experience_technical_competency_map.html" class="text-primary-200 hover:text-accent transition-smooth">Skills</a></li>
+                        <li><a href="research_academic_work.html" class="text-primary-200 hover:text-accent transition-smooth">Research</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-semibold text-accent mb-4">Contact</h3>
+                    <ul class="space-y-2 text-primary-200">
+                        <li>Bremen, Germany</li>
+                        <li>sara.gaire@constructor.university</li>
+                        <li>Available for opportunities</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-primary-700 mt-8 pt-8 text-center text-primary-200">
+                <p>&copy; 2025 Sara Gaire. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        }
+
+        // Typing animation
+        const typingText = document.getElementById('typing-text');
+        const texts = [
+            'Computer Science Student',
+            'Machine Learning Enthusiast',
+            'Full-Stack Developer',
+            'Research Assistant',
+            'Problem Solver'
+        ];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        function typeWriter() {
+            const currentText = texts[textIndex];
+            
+            if (isDeleting) {
+                typingText.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingText.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            let typeSpeed = isDeleting ? 50 : 100;
+
+            if (!isDeleting && charIndex === currentText.length) {
+                typeSpeed = 2000;
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                textIndex = (textIndex + 1) % texts.length;
+                typeSpeed = 500;
+            }
+
+            setTimeout(typeWriter, typeSpeed);
+        }
+
+        // Start typing animation
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(typeWriter, 1000);
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll-based animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const animateElements = document.querySelectorAll('.card, .skill-card');
+            animateElements.forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
