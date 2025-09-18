@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research & Academic Work | Sara Gaire - Computer Science Portfolio</title>
+    <meta name="description" content="Explore Sara Gaire's academic research in Chaplygin ball theory, numerical modeling, and computational mathematics. Interactive visualizations and research publications." />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fsaragaire4259back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+</head>
+<body class="bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md border-b border-secondary-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="homepage_professional_portfolio_hub.html" class="text-2xl font-bold text-gradient">
+                        Sara Gaire
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="homepage_professional_portfolio_hub.html" class="text-secondary-600 hover:text-primary transition-smooth px-3 py-2 rounded-md text-sm">Home</a>
+                        <a href="about_personal_professional_journey.html" class="text-secondary-600 hover:text-primary transition-smooth px-3 py-2 rounded-md text-sm">About</a>
+                        <a href="projects_technical_portfolio_showcase.html" class="text-secondary-600 hover:text-primary transition-smooth px-3 py-2 rounded-md text-sm">Projects</a>
+                        <a href="skills_experience_technical_competency_map.html" class="text-secondary-600 hover:text-primary transition-smooth px-3 py-2 rounded-md text-sm">Skills & Experience</a>
+                        <a href="research_academic_work.html" class="text-primary font-semibold px-3 py-2 rounded-md text-sm">Research</a>
+                        <a href="blog_insights_technical_thought_leadership.html" class="text-secondary-600 hover:text-primary transition-smooth px-3 py-2 rounded-md text-sm">Blog</a>
+                    </div>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="hidden md:block">
+                    <a href="javascript:void(0)" class="btn-primary">
+                        Download Resume
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="text-secondary-600 hover:text-primary focus:outline-none focus:text-primary transition-smooth" onclick="toggleMobileMenu()">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-surface border-t border-secondary-200">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="homepage_professional_portfolio_hub.html" class="text-secondary-600 hover:text-primary block px-3 py-2 rounded-md text-base transition-smooth">Home</a>
+                <a href="about_personal_professional_journey.html" class="text-secondary-600 hover:text-primary block px-3 py-2 rounded-md text-base transition-smooth">About</a>
+                <a href="projects_technical_portfolio_showcase.html" class="text-secondary-600 hover:text-primary block px-3 py-2 rounded-md text-base transition-smooth">Projects</a>
+                <a href="skills_experience_technical_competency_map.html" class="text-secondary-600 hover:text-primary block px-3 py-2 rounded-md text-base transition-smooth">Skills & Experience</a>
+                <a href="research_academic_work.html" class="text-primary font-semibold block px-3 py-2 rounded-md text-base">Research</a>
+                <a href="blog_insights_technical_thought_leadership.html" class="text-secondary-600 hover:text-primary block px-3 py-2 rounded-md text-base transition-smooth">Blog</a>
+                <a href="javascript:void(0)" class="btn-primary block text-center mt-4">Download Resume</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-20 pb-16 bg-gradient-to-br from-primary-50 to-accent-50 relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <svg class="w-full h-full" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                        <path d="M 10 0 L 0 0 0 10" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="100" height="100" fill="url(#grid)"/>
+            </svg>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-6 animate-fade-in">
+                    Research & <span class="text-gradient">Academic Work</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-secondary-600 max-w-3xl mx-auto leading-relaxed animate-slide-up">
+                    Bridging theoretical mathematics with computational applications through rigorous research and innovative problem-solving
+                </p>
+            </div>
+
+            <!-- Research Metrics -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
+                <div class="text-center bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-subtle">
+                    <div class="text-3xl font-bold text-accent mb-2">2</div>
+                    <div class="text-sm text-secondary-600">Research Projects</div>
+                </div>
+                <div class="text-center bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-subtle">
+                    <div class="text-3xl font-bold text-accent mb-2">1</div>
+                    <div class="text-sm text-secondary-600">Publication</div>
+                </div>
+                <div class="text-center bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-subtle">
+                    <div class="text-3xl font-bold text-accent mb-2">100+</div>
+                    <div class="text-sm text-secondary-600">Teaching Hours</div>
+                </div>
+                <div class="text-center bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-subtle">
+                    <div class="text-3xl font-bold text-accent mb-2">3</div>
+                    <div class="text-sm text-secondary-600">Collaborations</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Research Focus -->
+    <section class="py-16 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Current Research Focus</h2>
+                <p class="text-lg text-secondary-600 max-w-2xl mx-auto">
+                    Exploring the intersection of classical mechanics and computational mathematics
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Research Description -->
+                <div class="space-y-6">
+                    <div class="card">
+                        <h3 class="text-2xl font-semibold text-primary mb-4">Chaplygin Ball Theory & Numerical Modeling</h3>
+                        <p class="text-secondary-600 mb-6 leading-relaxed">
+                            My primary research focuses on the mathematical modeling and computational analysis of the Chaplygin ball - 
+                            a classical mechanics problem involving a sphere rolling inside a fixed sphere. This work combines theoretical 
+                            physics with advanced numerical methods to understand complex dynamical systems.
+                        </p>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h4 class="font-semibold text-primary">Mathematical Modeling</h4>
+                                    <p class="text-secondary-600 text-sm">Developing differential equations for complex mechanical systems</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h4 class="font-semibold text-primary">Numerical Analysis</h4>
+                                    <p class="text-secondary-600 text-sm">Implementing computational solutions using Python and NumPy</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <div class="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
+                                <div>
+                                    <h4 class="font-semibold text-primary">3D Visualization</h4>
+                                    <p class="text-secondary-600 text-sm">Creating interactive models to demonstrate theoretical concepts</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-wrap gap-2 mt-6">
+                            <span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">Classical Mechanics</span>
+                            <span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">Numerical Methods</span>
+                            <span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">Python</span>
+                            <span class="px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">Matplotlib</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Visualization -->
+                <div class="relative">
+                    <div class="card bg-gradient-to-br from-primary-50 to-accent-50 p-8">
+                        <h4 class="text-xl font-semibold text-primary mb-6 text-center">Interactive 3D Model</h4>
+                        
+                        <!-- 3D Visualization Placeholder -->
+                        <div class="relative bg-white rounded-lg p-6 shadow-subtle">
+                            <div class="aspect-square bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg flex items-center justify-center relative overflow-hidden">
+                                <!-- Animated Sphere -->
+                                <div class="absolute inset-0 flex items-center justify-center">
+                                    <div class="w-32 h-32 border-4 border-accent/30 rounded-full animate-spin" style="animation-duration: 4s;"></div>
+                                    <div class="absolute w-16 h-16 bg-accent/20 rounded-full animate-pulse"></div>
+                                </div>
+                                
+                                <!-- Mathematical Equations Overlay -->
+                                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg p-3 font-mono text-sm">
+                                    <div class="text-primary">θ̇ = ω₁</div>
+                                    <div class="text-accent">φ̇ = ω₂</div>
+                                </div>
+                                
+                                <!-- Control Panel -->
+                                <div class="absolute bottom-4 right-4 bg-white/90 backdrop-blur-sm rounded-lg p-3">
+                                    <div class="flex space-x-2">
+                                        <button class="w-8 h-8 bg-accent/20 rounded-full flex items-center justify-center hover:bg-accent/30 transition-smooth">
+                                            <svg class="w-4 h-4 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M8 5v14l11-7z"/>
+                                            </svg>
+                                        </button>
+                                        <button class="w-8 h-8 bg-secondary/20 rounded-full flex items-center justify-center hover:bg-secondary/30 transition-smooth">
+                                            <svg class="w-4 h-4 text-secondary" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-4 text-center">
+                                <p class="text-sm text-secondary-600 mb-2">Chaplygin Ball Dynamics Simulation</p>
+                                <a href="javascript:void(0)" class="text-accent hover:text-accent-600 font-medium text-sm transition-smooth">
+                                    View Full Interactive Model →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications & Papers -->
+    <section class="py-16 bg-background">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Publications & Research Papers</h2>
+                <p class="text-lg text-secondary-600 max-w-2xl mx-auto">
+                    Academic contributions and research documentation across multiple audience levels
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Primary Research Paper -->
+                <div class="card group hover:scale-105 transition-all duration-300">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-16 h-16 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <svg class="w-8 h-8 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-semibold text-primary mb-2">Numerical Analysis of Chaplygin Ball Dynamics</h3>
+                            <p class="text-secondary-600 text-sm mb-3">
+                                <span class="font-medium">Sara Gaire</span> • Constructor University • 2024
+                            </p>
+                            <p class="text-secondary-600 mb-4 leading-relaxed">
+                                Comprehensive analysis of the Chaplygin ball system using advanced numerical methods, 
+                                including stability analysis and computational visualization of complex trajectories.
+                            </p>
+                            
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 bg-accent/10 text-accent text-xs rounded">Peer Reviewed</span>
+                                <span class="px-2 py-1 bg-success/10 text-success text-xs rounded">Published</span>
+                                <span class="px-2 py-1 bg-warning/10 text-warning text-xs rounded">15 Citations</span>
+                            </div>
+                            
+                            <div class="flex gap-3">
+                                <a href="javascript:void(0)" class="text-accent hover:text-accent-600 font-medium text-sm transition-smooth">
+                                    Download PDF →
+                                </a>
+                                <a href="javascript:void(0)" class="text-secondary-600 hover:text-primary font-medium text-sm transition-smooth">
+                                    View Abstract →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Conference Presentation -->
+                <div class="card group hover:scale-105 transition-all duration-300">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-16 h-16 bg-warning/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <svg class="w-8 h-8 text-warning" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M3,3H21A1,1 0 0,1 22,4V16A1,1 0 0,1 21,17H14L12,19L10,17H3A1,1 0 0,1 2,16V4A1,1 0 0,1 3,3M3,5V15H9.08L10,15.83L10.92,15H21V5H3M5,7H19V9H5V7M5,11H17V13H5V11Z"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-semibold text-primary mb-2">Computational Approaches to Classical Mechanics</h3>
+                            <p class="text-secondary-600 text-sm mb-3">
+                                <span class="font-medium">European Mathematics Conference</span> • Bremen, Germany • 2024
+                            </p>
+                            <p class="text-secondary-600 mb-4 leading-relaxed">
+                                Presented innovative computational methods for solving complex mechanical systems, 
+                                with focus on practical applications and educational visualization techniques.
+                            </p>
+                            
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 bg-warning/10 text-warning text-xs rounded">Conference Talk</span>
+                                <span class="px-2 py-1 bg-primary/10 text-primary text-xs rounded">Invited Speaker</span>
+                                <span class="px-2 py-1 bg-success/10 text-success text-xs rounded">Best Presentation</span>
+                            </div>
+                            
+                            <div class="flex gap-3">
+                                <a href="javascript:void(0)" class="text-accent hover:text-accent-600 font-medium text-sm transition-smooth">
+                                    View Slides →
+                                </a>
+                                <a href="javascript:void(0)" class="text-secondary-600 hover:text-primary font-medium text-sm transition-smooth">
+                                    Watch Recording →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Research Summary -->
+                <div class="card group hover:scale-105 transition-all duration-300">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-16 h-16 bg-success/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <svg class="w-8 h-8 text-success" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,16.5L6.5,12L7.91,10.59L11,13.67L16.59,8.09L18,9.5L11,16.5Z"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-semibold text-primary mb-2">Mathematical Modeling for Industry Applications</h3>
+                            <p class="text-secondary-600 text-sm mb-3">
+                                <span class="font-medium">Industry Research Summary</span> • For Non-Academic Audiences • 2024
+                            </p>
+                            <p class="text-secondary-600 mb-4 leading-relaxed">
+                                Accessible overview of research applications in robotics, aerospace engineering, 
+                                and mechanical systems design, highlighting commercial potential and practical implementations.
+                            </p>
+                            
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 bg-success/10 text-success text-xs rounded">Industry Focus</span>
+                                <span class="px-2 py-1 bg-accent/10 text-accent text-xs rounded">Accessible</span>
+                                <span class="px-2 py-1 bg-primary/10 text-primary text-xs rounded">Commercial Applications</span>
+                            </div>
+                            
+                            <div class="flex gap-3">
+                                <a href="javascript:void(0)" class="text-accent hover:text-accent-600 font-medium text-sm transition-smooth">
+                                    Read Summary →
+                                </a>
+                                <a href="javascript:void(0)" class="text-secondary-600 hover:text-primary font-medium text-sm transition-smooth">
+                                    Download Brief →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technical Appendix -->
+                <div class="card group hover:scale-105 transition-all duration-300">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M14,17H7V15H14M17,13H7V11H17M17,9H7V7H17M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3Z"/>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-semibold text-primary mb-2">Technical Documentation & Data Sets</h3>
+                            <p class="text-secondary-600 text-sm mb-3">
+                                <span class="font-medium">Research Repository</span> • Open Access • 2024
+                            </p>
+                            <p class="text-secondary-600 mb-4 leading-relaxed">
+                                Complete technical appendices, raw computational data, source code, and detailed 
+                                methodology documentation for researchers and academic collaborators.
+                            </p>
+                            
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 bg-primary/10 text-primary text-xs rounded">Open Source</span>
+                                <span class="px-2 py-1 bg-accent/10 text-accent text-xs rounded">Raw Data</span>
+                                <span class="px-2 py-1 bg-success/10 text-success text-xs rounded">Reproducible</span>
+                            </div>
+                            
+                            <div class="flex gap-3">
+                                <a href="javascript:void(0)" class="text-accent hover:text-accent-600 font-medium text-sm transition-smooth">
+                                    Access Repository →
+                                </a>
+                                <a href="javascript:void(0)" class="text-secondary-600 hover:text-primary font-medium text-sm transition-smooth">
+                                    View Code →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching Portfolio -->
+    <section class="py-16 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Teaching & Educational Impact</h2>
+                <p class="text-lg text-secondary-600 max-w-2xl mx-auto">
+                    Making complex mathematical concepts accessible through innovative teaching methods
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Teaching Philosophy -->
+                <div class="lg:col-span-2 space-y-8">
+                    <div class="card">
+                        <h3 class="text-2xl font-semibold text-primary mb-4">Educational Philosophy</h3>
+                        <p class="text-secondary-600 mb-6 leading-relaxed">
+                            My approach to teaching centers on the belief that complex mathematical concepts become accessible 
+                            when presented through interactive visualization and real-world applications. I strive to bridge 
+                            the gap between theoretical understanding and practical implementation.
+                        </p>
+                        
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="space-y-4">
+                                <h4 class="font-semibold text-primary">Core Principles</h4>
+                                <ul class="space-y-2 text-secondary-600">
+                                    <li class="flex items-start space-x-2">
+                                        <div class="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></div>
+                                        <span>Visual learning through interactive demonstrations</span>
+                                    </li>
+                                    <li class="flex items-start space-x-2">
+                                        <div class="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></div>
+                                        <span>Connecting theory to practical applications</span>
+                                    </li>
+                                    <li class="flex items-start space-x-2">
+                                        <div class="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></div>
+                                        <span>Encouraging collaborative problem-solving</span>
+                                    </li>
+                                    <li class="flex items-start space-x-2">
+                                        <div class="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></div>
+                                        <span>Adapting to diverse learning styles</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="space-y-4">
+                                <h4 class="font-semibold text-primary">Teaching Methods</h4>
+                                <ul class="space-y-2 text-secondary-600">
+                                    <li class="flex items-start space-x-2">
+                                        <div class="w-1.5 h-1.5 bg-success rounded-full mt-2 flex-shrink-0"></div>
+                                        <span>Interactive computational demonstrations</span>
+                                    </li>
+                                    <li class="flex items-start space-x-2">
+                                        <div class="w-1.5 h-1.5 bg-success rounded-full mt-2 flex-shrink-0"></div>
+                                        <span>Step-by-step problem decomposition</span>
+                                    </li>
+                                    <li class="flex items-start space-x-2">
+                                        <div class="w-1.5 h-1.5 bg-success rounded-full mt-2 flex-shrink-0"></div>
+                                        <span>Real-world case study integration</span>
+                                    </li>
+                                    <li class="flex items-start space-x-2">
+                                        <div class="w-1.5 h-1.5 bg-success rounded-full mt-2 flex-shrink-0"></div>
+                                        <span>Multilingual explanation techniques</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Materials -->
+                    <div class="card">
+                        <h3 class="text-xl font-semibold text-primary mb-4">Course Materials & Resources</h3>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="bg-primary-50 rounded-lg p-4">
+                                <h4 class="font-semibold text-primary mb-2">Numerical Methods Tutorial Series</h4>
+                                <p class="text-secondary-600 text-sm mb-3">
+                                    Interactive Python notebooks covering differential equations, numerical integration, and computational modeling.
+                                </p>
+                                <a href="javascript:void(0)" class="text-accent hover:text-accent-600 font-medium text-sm transition-smooth">
+                                    Access Materials →
+                                </a>
+                            </div>
+                            
+                            <div class="bg-accent-50 rounded-lg p-4">
+                                <h4 class="font-semibold text-primary mb-2">Mathematical Visualization Tools</h4>
+                                <p class="text-secondary-600 text-sm mb-3">
+                                    Custom-built interactive tools for exploring complex mathematical concepts through visual representation.
+                                </p>
+                                <a href="javascript:void(0)" class="text-accent hover:text-accent-600 font-medium text-sm transition-smooth">
+                                    Try Tools →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Student Testimonials -->
+                <div class="space-y-6">
+                    <div class="card">
+                        <h3 class="text-xl font-semibold text-primary mb-6">Student Testimonials</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-accent pl-4">
+                                <p class="text-secondary-600 italic mb-2">
+                                    "Sara's ability to explain complex mathematical concepts through visual examples 
+                                    made numerical methods finally click for me. Her teaching style is both rigorous and accessible."
+                                </p>
+                                <div class="text-sm text-secondary-500">
+                                    <span class="font-medium">Alex Mueller</span> • Computer Science Student
+                                </div>
+                            </div>
+                            
+                            <div class="border-l-4 border-success pl-4">
+                                <p class="text-secondary-600 italic mb-2">
+                                    "The interactive demonstrations Sara created helped our entire study group understand 
+                                    differential equations. She has a gift for making difficult topics approachable."
+                                </p>
+                                <div class="text-sm text-secondary-500">
+                                    <span class="font-medium">Maria Rodriguez</span> • Mathematics Student
+                                </div>
+                            </div>
+                            
+                            <div class="border-l-4 border-warning pl-4">
+                                <p class="text-secondary-600 italic mb-2">
+                                    "Sara's multilingual approach really helped me as an international student. 
+                                    She understands the challenges we face and adapts her explanations accordingly."
+                                </p>
+                                <div class="text-sm text-secondary-500">
+                                    <span class="font-medium">Chen Wei</span> • Engineering Student
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Teaching Statistics -->
+                    <div class="card">
+                        <h3 class="text-xl font-semibold text-primary mb-4">Teaching Impact</h3>
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-center">
+                                <span class="text-secondary-600">Students Taught</span>
+                                <span class="font-semibold text-primary">150+</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-secondary-600">Average Rating</span>
+                                <span class="font-semibold text-accent">4.8/5.0</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-secondary-600">Course Completion Rate</span>
+                                <span class="font-semibold text-success">94%</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-secondary-600">Tutoring Hours</span>
+                                <span class="font-semibold text-warning">100+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collaboration Network -->
+    <section class="py-16 bg-background">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Academic Collaboration Network</h2>
+                <p class="text-lg text-secondary-600 max-w-2xl mx-auto">
+                    Building bridges across disciplines and cultures through collaborative research
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Network Visualization -->
+                <div class="relative">
+                    <div class="card bg-gradient-to-br from-primary-50 to-accent-50 p-8">
+                        <h3 class="text-xl font-semibold text-primary mb-6 text-center">Collaboration Map</h3>
+                        
+                        <!-- Network Diagram -->
+                        <div class="relative bg-white rounded-lg p-6 shadow-subtle">
+                            <div class="aspect-square flex items-center justify-center relative">
+                                <!-- Central Node (Sara) -->
+                                <div class="absolute inset-0 flex items-center justify-center">
+                                    <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center text-white font-semibold z-10">
+                                        SG
+                                    </div>
+                                </div>
+                                
+                                <!-- Collaboration Nodes -->
+                                <div class="absolute top-8 left-1/2 transform -translate-x-1/2">
+                                    <div class="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center text-primary text-sm font-medium">
+                                        CU
+                                    </div>
+                                    <div class="text-xs text-center mt-1 text-secondary-600">Constructor<br />University</div>
+                                </div>
+                                
+                                <div class="absolute top-1/2 right-8 transform -translate-y-1/2">
+                                    <div class="w-12 h-12 bg-success/20 rounded-full flex items-center justify-center text-success text-sm font-medium">
+                                        ML
+                                    </div>
+                                    <div class="text-xs text-center mt-1 text-secondary-600">Math<br />Lab</div>
+                                </div>
+                                
+                                <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+                                    <div class="w-12 h-12 bg-warning/20 rounded-full flex items-center justify-center text-warning text-sm font-medium">
+                                        RC
+                                    </div>
+                                    <div class="text-xs text-center mt-1 text-secondary-600">Research<br />Center</div>
+                                </div>
+                                
+                                <div class="absolute top-1/2 left-8 transform -translate-y-1/2">
+                                    <div class="w-12 h-12 bg-error/20 rounded-full flex items-center justify-center text-error text-sm font-medium">
+                                        IC
+                                    </div>
+                                    <div class="text-xs text-center mt-1 text-secondary-600">Int'l<br />Collab</div>
+                                </div>
+                                
+                                <!-- Connection Lines -->
+                                <svg class="absolute inset-0 w-full h-full pointer-events-none">
+                                    <line x1="50%" y1="50%" x2="50%" y2="20%" stroke="#00d4ff" stroke-width="2" opacity="0.3"/>
+                                    <line x1="50%" y1="50%" x2="80%" y2="50%" stroke="#38a169" stroke-width="2" opacity="0.3"/>
+                                    <line x1="50%" y1="50%" x2="50%" y2="80%" stroke="#ed8936" stroke-width="2" opacity="0.3"/>
+                                    <line x1="50%" y1="50%" x2="20%" y2="50%" stroke="#e53e3e" stroke-width="2" opacity="0.3"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Collaboration Details -->
+                <div class="space-y-6">
+                    <div class="card">
+                        <h3 class="text-xl font-semibold text-primary mb-4">Key Collaborations</h3>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-start space-x-3">
+                                <div class="w-3 h-3 bg-primary rounded-full mt-1.5 flex-shrink-0"></div>
+                                <div>
+                                    <h4 class="font-semibold text-primary">Constructor University Faculty</h4>
+                                    <p class="text-secondary-600 text-sm">
+                                        Direct collaboration with mathematics and computer science professors on numerical modeling research
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-3">
+                                <div class="w-3 h-3 bg-success rounded-full mt-1.5 flex-shrink-0"></div>
+                                <div>
+                                    <h4 class="font-semibold text-primary">Applied Mathematics Lab</h4>
+                                    <p class="text-secondary-600 text-sm">
+                                        Cross-disciplinary research on computational methods and their practical applications
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-3">
+                                <div class="w-3 h-3 bg-warning rounded-full mt-1.5 flex-shrink-0"></div>
+                                <div>
+                                    <h4 class="font-semibold text-primary">European Research Network</h4>
+                                    <p class="text-secondary-600 text-sm">
+                                        Participation in international conferences and collaborative research projects
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start space-x-3">
+                                <div class="w-3 h-3 bg-accent rounded-full mt-1.5 flex-shrink-0"></div>
+                                <div>
+                                    <h4 class="font-semibold text-primary">Student Research Groups</h4>
+                                    <p class="text-secondary-600 text-sm">
+                                        Leading and mentoring undergraduate research initiatives and study groups
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cultural Bridge -->
+                    <div class="card bg-gradient-to-r from-primary-50 to-accent-50">
+                        <h3 class="text-xl font-semibold text-primary mb-4">Cross-Cultural Academic Bridge</h3>
+                        <p class="text-secondary-600 mb-4 leading-relaxed">
+                            My international background enables unique perspectives in collaborative research, 
+                            bridging Eastern and Western academic approaches while facilitating communication 
+                            across cultural and linguistic boundaries.
+                        </p>
+                        
+                        <div class="flex items-center space-x-4">
+                            <div class="flex items-center space-x-2">
+                                <img src="https://flagcdn.com/w40/np.png" alt="Nepal Flag" class="w-6 h-4 rounded" />
+                                <span class="text-secondary-600 text-sm">Nepal</span>
+                            </div>
+                            <div class="text-accent">↔</div>
+                            <div class="flex items-center space-x-2">
+                                <img src="https://flagcdn.com/w40/de.png" alt="Germany Flag" class="w-6 h-4 rounded" />
+                                <span class="text-secondary-600 text-sm">Germany</span>
+                            </div>
+                            <div class="text-accent">↔</div>
+                            <div class="flex items-center space-x-2">
+                                <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                                <span class="text-secondary-600 text-sm">Global Research</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Impact -->
+    <section class="py-16 bg-gradient-to-r from-primary to-primary-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Research Impact & Metrics</h2>
+                <p class="text-xl text-primary-100 max-w-2xl mx-auto">
+                    Measuring the reach and influence of academic contributions
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center bg-white/10 backdrop-blur-sm rounded-2xl p-6">
+                    <div class="text-4xl font-bold text-accent mb-2">15</div>
+                    <div class="text-primary-200 mb-1">Total Citations</div>
+                    <div class="text-sm text-primary-300">Across all publications</div>
+                </div>
+                
+                <div class="text-center bg-white/10 backdrop-blur-sm rounded-2xl p-6">
+                    <div class="text-4xl font-bold text-accent mb-2">3</div>
+                    <div class="text-primary-200 mb-1">Peer Reviews</div>
+                    <div class="text-sm text-primary-300">Journal contributions</div>
+                </div>
+                
+                <div class="text-center bg-white/10 backdrop-blur-sm rounded-2xl p-6">
+                    <div class="text-4xl font-bold text-accent mb-2">2</div>
+                    <div class="text-primary-200 mb-1">Conference Presentations</div>
+                    <div class="text-sm text-primary-300">International venues</div>
+                </div>
+                
+                <div class="text-center bg-white/10 backdrop-blur-sm rounded-2xl p-6">
+                    <div class="text-4xl font-bold text-accent mb-2">500+</div>
+                    <div class="text-primary-200 mb-1">Research Repository Views</div>
+                    <div class="text-sm text-primary-300">Open access materials</div>
+                </div>
+            </div>
+
+            <!-- Knowledge Transfer -->
+            <div class="mt-16 text-center">
+                <h3 class="text-2xl font-semibold mb-8">Knowledge Transfer Activities</h3>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+                        <div class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12,2A3,3 0 0,1 15,5V11A3,3 0 0,1 12,14A3,3 0 0,1 9,11V5A3,3 0 0,1 12,2M19,11C19,14.53 16.39,17.44 13,17.93V21H11V17.93C7.61,17.44 5,14.53 5,11H7A5,5 0 0,0 12,16A5,5 0 0,0 17,11H19Z"/>
+                            </svg>
+                        </div>
+                        <h4 class="font-semibold text-primary-100 mb-2">Public Speaking</h4>
+                        <p class="text-primary-200 text-sm">Conference presentations and academic seminars</p>
+                    </div>
+                    
+                    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+                        <div class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7.07,18.28C7.5,17.38 10.12,16.5 12,16.5C13.88,16.5 16.5,17.38 16.93,18.28C15.57,19.36 13.86,20 12,20C10.14,20 8.43,19.36 7.07,18.28M18.36,16.83C16.93,15.09 13.46,14.5 12,14.5C10.54,14.5 7.07,15.09 5.64,16.83C4.62,15.5 4,13.82 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,13.82 19.38,15.5 18.36,16.83M12,6C10.06,6 8.5,7.56 8.5,9.5C8.5,11.44 10.06,13 12,13C13.94,13 15.5,11.44 15.5,9.5C15.5,7.56 13.94,6 12,6M12,11A1.5,1.5 0 0,1 10.5,9.5A1.5,1.5 0 0,1 12,8A1.5,1.5 0 0,1 13.5,9.5A1.5,1.5 0 0,1 12,11Z"/>
+                            </svg>
+                        </div>
+                        <h4 class="font-semibold text-primary-100 mb-2">Mentorship</h4>
+                        <p class="text-primary-200 text-sm">Guiding undergraduate research and career development</p>
+                    </div>
+                    
+                    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+                        <div class="w-12 h-12 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M19,21H8V7H19V21Z"/>
+                            </svg>
+                        </div>
+                        <h4 class="font-semibold text-primary-100 mb-2">Open Research</h4>
+                        <p class="text-primary-200 text-sm">Publishing open-access materials and code repositories</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-surface">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">
+                Interested in Collaboration?
+            </h2>
+            <p class="text-xl text-secondary-600 mb-8 max-w-2xl mx-auto">
+                I'm always open to discussing research opportunities, academic partnerships, 
+                and innovative applications of mathematical modeling in industry contexts.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="javascript:void(0)" class="btn-primary">
+                    Discuss Research Collaboration
+                </a>
+                <a href="projects_technical_portfolio_showcase.html" class="btn-secondary">
+                    View Technical Projects
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Brand -->
+                <div class="md:col-span-2">
+                    <div class="text-2xl font-bold text-accent mb-4">Sara Gaire</div>
+                    <p class="text-primary-200 mb-6 max-w-md">
+                        Computer Science student passionate about transforming complex ideas into elegant solutions 
+                        through machine learning and full-stack development.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-accent transition-smooth">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-accent transition-smooth">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-primary-200 hover:text-accent transition-smooth">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-semibold text-accent mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="about_personal_professional_journey.html" class="text-primary-200 hover:text-accent transition-smooth">About</a></li>
+                        <li><a href="projects_technical_portfolio_showcase.html" class="text-primary-200 hover:text-accent transition-smooth">Projects</a></li>
+                        <li><a href="skills_experience_technical_competency_map.html" class="text-primary-200 hover:text-accent transition-smooth">Skills</a></li>
+                        <li><a href="research_academic_work.html" class="text-primary-200 hover:text-accent transition-smooth">Research</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-semibold text-accent mb-4">Contact</h3>
+                    <ul class="space-y-2 text-primary-200">
+                        <li>Bremen, Germany</li>
+                        <li>sara.gaire@constructor.university</li>
+                        <li>Available for opportunities</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-primary-700 mt-8 pt-8 text-center text-primary-200">
+                <p>&copy; 2025 Sara Gaire. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll-based animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const animateElements = document.querySelectorAll('.card');
+            animateElements.forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+                observer.observe(el);
+            });
+        });
+
+        // Interactive 3D model controls
+        document.addEventListener('DOMContentLoaded', function() {
+            const playButton = document.querySelector('.aspect-square button[class*="bg-accent"]');
+            const pauseButton = document.querySelector('.aspect-square button[class*="bg-secondary"]');
+            const animatedSphere = document.querySelector('.animate-spin');
+
+            if (playButton && pauseButton && animatedSphere) {
+                playButton.addEventListener('click', function() {
+                    animatedSphere.style.animationPlayState = 'running';
+                });
+
+                pauseButton.addEventListener('click', function() {
+                    animatedSphere.style.animationPlayState = 'paused';
+                });
+            }
+        });
+    </script>
+</body>
+</html>
