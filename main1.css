@@ -1,0 +1,195 @@
+/* ------------------------------
+GLOBAL THEME SETTINGS
+------------------------------ */
+
+/* Global background and text */
+body, html {
+    background-color: #0A0A0A !important;
+    color: #C8C8C8 !important;
+}
+
+/* Remove harsh whites */
+p, span, li {
+    color: #C8C8C8 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+    color: #F2F2F2 !important;
+    letter-spacing: -0.5px;
+    font-weight: 600 !important;
+}
+
+
+/* ------------------------------
+LINKS
+------------------------------ */
+
+a {
+    color: #01A075 !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    opacity: 0.75;
+}
+
+
+/* ------------------------------
+BUTTONS
+------------------------------ */
+
+.sqs-block-button-element--medium,
+.sqs-block-button-element--large,
+.sqs-button {
+    background-color: #01A075 !important;
+    color: #0A0A0A !important;
+    border-radius: 6px !important;
+    font-weight: 600;
+    padding: 12px 22px !important;
+}
+
+/* Outline Button */
+.sqs-block-button-element--outline {
+    background: transparent !important;
+    border: 2px solid #01A075 !important;
+    color: #01A075 !important;
+}
+
+.sqs-block-button-element--outline:hover {
+    background: #01A075 !important;
+    color: #0A0A0A !important;
+}
+
+
+/* ------------------------------
+SECTION BACKGROUND CONTROL
+------------------------------ */
+
+.section-dark {
+    background-color: #0A0A0A !important;
+}
+
+.section-green {
+    background-color: #002E24 !important;
+}
+
+/* Remove built-in Squarespace white backgrounds */
+.sqs-layout, 
+.sqs-section, 
+.sqs-block,
+.sqs-row,
+.sqs-col {
+    background-color: transparent !important;
+}
+
+
+/* ------------------------------
+PROJECT GRID CARDS
+------------------------------ */
+
+.project-card {
+    background: #0F0F0F;
+    padding: 25px;
+    border-radius: 12px;
+    transition: 0.3s;
+    border: 1px solid #003C32;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    border-color: #01A075;
+}
+
+
+/* Project card titles */
+.project-card h3 {
+    color: #F2F2F2 !important;
+    margin-bottom: 10px;
+}
+
+/* Project card tech tags */
+.tech-tag {
+    background: #002E24;
+    color: #01A075;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+
+/* ------------------------------
+NAVIGATION BAR
+------------------------------ */
+
+header, nav, .Header, .Header-inner {
+    background-color: #0A0A0A !important;
+}
+
+.Header-nav-item a {
+    color: #F2F2F2 !important;
+}
+
+.Header-nav-item a:hover {
+    color: #01A075 !important;
+}
+
+
+/* ------------------------------
+FOOTER
+------------------------------ */
+
+footer {
+    background-color: #002E24 !important;
+}
+
+footer p,
+footer a {
+    color: #C8C8C8 !important;
+}
+
+
+/* ------------------------------
+IMAGES
+------------------------------ */
+
+img {
+    border-radius: 10px !important;
+}
+
+
+/* ------------------------------
+DIVIDERS
+------------------------------ */
+
+hr, .sqs-block-horizontalrule hr {
+    border-top: 1px solid #003C32 !important;
+}
+
+
+/* ------------------------------
+FORMS (Contact Page)
+------------------------------ */
+
+input, textarea {
+    background: #0D0D0D !important;
+    border: 1px solid #003C32 !important;
+    color: #F2F2F2 !important;
+    border-radius: 6px !important;
+}
+
+input:focus, textarea:focus {
+    border-color: #01A075 !important;
+}
+
+
+/* ------------------------------
+HOVER & TRANSITIONS
+------------------------------ */
+
+* {
+    transition: all 0.15s ease-in-out;
+}
